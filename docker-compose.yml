@@ -14,7 +14,7 @@ services:
     depends_on:
       - mysql
     ports:
-      - "4000:5000"
+      - "5000:5000"
     volumes:
       - .:/app
     environment:
