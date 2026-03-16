@@ -7,7 +7,7 @@ services:
     volumes:
       - ./database_students.sql:/docker-entrypoint-initdb.d/database_students.sql
     ports:
-      - "3307:3306"
+      - "3306:3306"
 
   pythonapp:
     build: .
